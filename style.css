@@ -1,0 +1,66 @@
+body {
+    background-color: blueviolet;
+    background-image: url("fundo.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container-opostos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+#projetos {
+    background-color:darkmagenta;
+    color:darkgray;
+   position:relative;
+    top: 500px;
+    right:40%;
+}
+
+#perfil {
+    background-color: darkmagenta;
+    color:darkgray;
+    flex-direction: column;
+    top: 500px;
+    position: relative;
+    display:flex;
+    left: 40%;
+    
+
+}
+
+p{
+    font-size: 20px; 
+    color:darkgray;
+    margin-top: 60px;
+    text-align: center;
+}
+
+h1{
+    color:darkmagenta;
+}
+
+h2{
+    color:darkmagenta;
+    
+}
+
+.profile-container{
+    color:darkgray;
+    margin-top:-400px;
+
+}
+
+.profile-pic{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.sobre{
+   position:relative;
+   top: -400px;
+}
